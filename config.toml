@@ -1,4 +1,11 @@
-baseURL = "https://rageshravi.com"
+baseURL = "https://rageshravi.com/"
 languageCode = "en-us"
 title = "RAGESHRAVI.COM"
 theme = "hugo-swift-theme"
+copyright = "Copyright © 2019"
+canonifyurls = true
+paginate = 4
+# Enable syntax highlighting
+# comment on delete the following lines 11 ~ 13
+pygmentsCodefences = true
+pygmentsCodefencesGuessSyntax = true
