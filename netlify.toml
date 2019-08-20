@@ -1,8 +1,8 @@
 # The following redirect is intended for use with most SPAs that handle
 # routing internally.
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
+  from = "https://infallible-goodall-3a896c.netlify.com/*"
+  to = "https://www.rageshravi.com/"
   status = 200
 
 [[headers]]
