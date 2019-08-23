@@ -9,7 +9,7 @@ draft: false
 ## SAGA
 Data consistence is an essential part of any software application. Unlike a monolithic application, the microservices model does not have a single source of truth. Each service have its own data store. As a result the state of the application is spread across multiple services. In order to maintain data consistency, the usual technique used by application developers is the transaction management. But it becomes very difficult in a world where data is spread across multiple services. A single transaction spans over multiple services. To solve this kind of cumbersome job, we have a well known design pattern - SAGA.
 
-Saga is one of the well known design patterns. It is more popular in the microservices world. Saga was proposed to alleviate the problems caused by Long Lived Transactions(LLT).  An LLT is a saga if it can be written as a sequence of transactions that can be interleaved with other transactions.
+Saga is one of the well known design patterns. It is more popular in the microservices world. Saga was proposed to alleviate the problems caused by Long Lived Transactions(LLT).  The term "saga" was first used in a [1987 research paper](http://www.cs.cornell.edu/andru/cs711/2002fa/reading/sagas.pdf) by Hector Garcia-Molina and Kenneth Salem. It’s introduced as an conceptual alternative for long lived database transactions.An LLT is a saga if it can be written as a sequence of transactions that can be interleaved with other transactions.
 
  - One fo the main advantage of saga pattern is data consistency across multiple services with out using tight coupling/distributed transactions.
  - The main disadvantage is the complexity involved in designing as well as programming this model.
