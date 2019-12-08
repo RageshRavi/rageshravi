@@ -36,8 +36,9 @@ Creational design patterns are further categorized into
 
 Five well-known design patterns that are parts of creational patterns are the
 
- 1. [Abstract factory pattern]({{< ref "design-patterns/abstract-factory-pattern" >}})
- 2. Builder pattern
+ 1. [Abstract factory pattern](design-patterns/abstract-factory-pattern)
+ 2. [Builder pattern](design-patterns/builder-pattern.md)
  3. Factory method pattern 
  4. Prototype pattern
  5. Singleton pattern
+ 
